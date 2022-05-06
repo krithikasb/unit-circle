@@ -15,8 +15,23 @@ h1 {
   color:cornflowerblue;
 }
 
+.imageWrapper {
+  width: 100%;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 20rem;
+  max-width: 100%;
+}
+
+.inlineFormula .katex {
+  line-height: 2;
+}
+
 .p5sketch {
-  position: absolute;
+  position: relative;
 }
 
 canvas {

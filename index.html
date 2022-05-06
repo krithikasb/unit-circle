@@ -10,45 +10,45 @@
 
   </head>
   <body>
-      <div class="wrapper">
-        <h1>Unit circle Trigonometric ratios</h1>
-        <p>
-            Trigonometry deals with the relationships between angles and ratios between the side-lengths of right angled triangles.
-            If we take a right-angled triangle ABC where angle B is 90 degrees, the sine of an angle is defined as the ratio between the opposite side and the hypotenuse.
-            That is, sin angle A = opposite / hypotenuse = BC/AB
-        </p>
-        <p>
-            Insert sine and cos sketch
-        </p>
-        <p>
-            Similarly, cos angle A = adjacent / hypotenuse = AC/AB
-        </p>
-        <p>
-            A tool often used to introduce trigonometric ratios is the unit circle.
-            Imagine a circle of radius 1 unit centered at the origin (0, 0). A right angled triangle can be drawn with these three points:
-            <ul>
-                <li>The center of the circle, (0, 0)</li>
-                <li>Any point on the circumference of the circle, say (x, y)</li>
-                <li>A point on the X-axis, ie, (0, y)</li>
-            </ul>
+    <div class="wrapper">
+      <h1>Unit circle Trigonometric ratios</h1>
+      <p>
+        Trigonometry deals with the relationships between angles and ratios between the side-lengths of right angled triangles.
+        If we take a right-angled triangle ABC where angle B is 90 degrees, the sine of an angle is defined as the ratio between the opposite side and the hypotenuse.
+        That is, <span class="inlineFormula" id="sineFormula"></span>
+      </p>
+      <img src="trigonometry_triangle.svg"/>
+      <p class="p5sketch" id="p5sketch1"></p>
+      <p>
+        Similarly, <span class="inlineFormula" id="cosineFormula"></span>
+      </p>
+      <p>
+        A tool often used to introduce trigonometric ratios is the unit circle.
+        Imagine a circle of radius 1 unit centered at the origin (0, 0). A right angled triangle can be drawn with these three points:
+        <ul>
+          <li>The center of the circle, (0, 0)</li>
+          <li>Any point on the circumference of the circle, say (x, y)</li>
+          <li>A point on the X-axis, ie, (0, y)</li>
+        </ul>
 
-            Using these three points, a right angled triangle can be drawn with any (x, y) on the circumference of the circle! Try it yourself below!
-        </p>
-        <p>
-            Insert mouse moving triangle sketch with all three points defined
-        </p>
-        <p>
-            A right-angled triangle drawn this way has the unique characteristic that it's hypotenuse is always of length 1 unit.
-            So the sine and cosine can be simplified in this instance to be exactly equal to the length of the opposite side and the length of the adjacent side respectively!
-        </p>
-        <p>
-            Some sketch here?
-        </p>
-        <div class="p5sketch" id="p5sketch"></div>
-        <p>
-            A useful
-        </p>
-      </div>
+        Using these three points, a right angled triangle can be drawn with any (x, y) on the circumference of the circle! Try it yourself below!
+      </p>
+      <p>
+        Insert mouse moving triangle sketch with all three points defined
+      </p>
+      <p>
+        A right-angled triangle drawn this way has the unique characteristic that it's hypotenuse is always of length 1 unit.
+        So the sine and cosine can be simplified in this instance to be exactly equal to the length of the opposite side and the length of the adjacent side respectively!
+      </p>
+      <p>
+        Some sketch here?
+      </p>
+      <div class="p5sketch" id="p5sketch"></div>
+      <p>
+        A useful
+      </p>
+    </div>
     <script src="sketch.js"></script>
+    <script src="formulae.js"></script>
   </body>
 </html>

@@ -6,7 +6,8 @@ const s = ( sketch ) => {
   let tex;
 
   sketch.setup = function setup() {
-    sketch.createCanvas(600, 600);
+    let w = Math.min(sketch.windowWidth, 600)
+    sketch.createCanvas(w, w);
     sketch.frameRate(fr);
     tex = sketch.createP()
     x = sketch.width/2;
